@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    --tw-bg-opacity: 1;
+    height: 6rem;
+    background-color: rgb(17 24 39/var(--tw-bg-opacity));
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    // margin-left: 10px;
+    margin-right: 1.25rem;
+}

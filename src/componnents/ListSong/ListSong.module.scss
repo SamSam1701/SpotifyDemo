@@ -1,0 +1,50 @@
+.listsong {
+    grid-column: span 2/span 2;
+    overflow-y: scroll;
+    table {
+        table-layout: auto;
+        border: none;
+        border-spacing: 0px;
+        width: 100%;
+        thead {
+            color: white;
+            height: 3rem;
+        }
+        tbody {
+            --tw-text-opacity: 1;
+            color: rgb(94 234 212/var(--tw-text-opacity));
+            tr {
+                height: 3rem;
+                &:hover {
+                    cursor: pointer;
+                    --tw-bg-opacity: 1;
+                    background-color: rgb(71 85 105/var(--tw-bg-opacity));
+                }
+            }
+        }
+    }
+}
+
+.ndth,
+.ndtd {
+    text-align: left;
+}
+
+.rdth,
+.dlicon {
+    width: 10%;
+}
+
+.SongBoard {
+    background-color: rgb(30 41 59);
+}
+
+.downloadbtn {
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212/var(--tw-text-opacity));
+}
+
+.playing {
+    --tw-bg-opacity: 1;
+    background-color: rgb(71 85 105/var(--tw-bg-opacity)) !important;
+}
